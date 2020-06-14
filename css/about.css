@@ -1,0 +1,36 @@
+body {
+  background-color: #2f3035;
+  background-image: url(../images/background3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  height: 475px;
+  padding-top: 10px;
+  padding-left: 600px;
+  padding-right: 600px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.map {
+  text-align: center;
+  padding-top: 20px;
+  opacity: 0.8;
+  margin-top: 80px;
+}
+
+.para {
+  width: 700px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#paragraph {
+  padding-top: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 25px;
+  font-size: 18px;
+}

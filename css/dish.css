@@ -1,0 +1,74 @@
+body {
+  background-color: #2f3035;
+  background-image: url(../images/background4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  height: 1035px;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 150px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.main-box1,
+.main-box2,
+.main-box3,
+.main-box4,
+.main-box5,
+.main-box6,
+.main-box7,
+.main-box8,
+.main-box9,
+.main-box10,
+.main-box11,
+.main-box12,
+.main-box13,
+.main-box14,
+.main-box15,
+.main-box16 {
+  height: 442px;
+  width: 420px;
+  background: rgba(0, 0, 0, 0.65);
+  margin-right: 80px;
+  margin-bottom: 50px;
+}
+
+.main1,
+.main2,
+.main3,
+.main4 {
+  display: flex;
+}
+
+.main h2 {
+  font-family: sans-serif;
+  color: white;
+  margin-top: 30px;
+}
+
+.main img {
+  padding-top: 20px;
+}
+
+#order {
+  border: white solid 2px;
+  border-radius: 24px;
+  text-align: center;
+  margin-right: 730px;
+  margin-left: 680px;
+  margin-bottom: 50px;
+  padding: 10px 40px;
+  color: white;
+  transition: 0.25s;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+#order:hover {
+  color: black;
+  background: white;
+}

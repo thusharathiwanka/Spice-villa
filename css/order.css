@@ -1,0 +1,15 @@
+body {
+  background-color: #2f3035;
+  background-image: url(../images/background4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  height: 1035px;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 150px;
+  text-align: center;
+  padding-top: 50px;
+}

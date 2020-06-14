@@ -1,0 +1,118 @@
+html {
+  height: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+header {
+  height: 240px;
+  text-align: center;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.45);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav a {
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: grey;
+  transition: 0.25s;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+#reservation {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav .active {
+  color: white;
+  transition: 0.25s;
+}
+
+p {
+  font-size: 16px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 40px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+}
+
+footer p {
+  font-size: 15px;
+  text-align: left;
+  padding-bottom: 15px;
+  position: relative;
+  text-align: center;
+  color: grey;
+}
+
+.footer {
+  align-content: center;
+}
+
+.social-media ul {
+  display: flex;
+  position: relative;
+  padding-left: 830px;
+}
+
+.social-media ul li {
+  list-style: none;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
+.social-media ul li a {
+  font-size: 20px;
+  color: grey;
+}
+
+.facebook,
+.instagram,
+.twitter,
+.youtube,
+.linkedin {
+  transition: 0.25s;
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+
+.instagram:hover {
+  color: #e4405f;
+}
+
+.twitter:hover {
+  color: #55acee;
+}
+
+.youtube:hover {
+  color: #c4302b;
+}
+
+.linkedin:hover {
+  color: #0e76a8;
+}

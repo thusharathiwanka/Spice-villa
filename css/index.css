@@ -1,0 +1,54 @@
+body {
+  background-color: #2f3035;
+  background-image: url(../images/background4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 120px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -10px;
+  margin-bottom: -5px;
+}
+
+main {
+  height: 475px;
+  padding-top: 10px;
+  padding-left: 600px;
+  padding-right: 600px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#reservation {
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 24px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  transition: 0.25s;
+}
+
+#reservation:hover {
+  color: black;
+  background: white;
+}
+
+.description {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.description p {
+  line-height: 135%;
+}

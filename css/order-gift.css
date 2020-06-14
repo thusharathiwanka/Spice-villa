@@ -1,0 +1,104 @@
+body {
+  background-color: #2f3035;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  height: 475px;
+  padding-top: 10px;
+  padding-left: 600px;
+  padding-right: 600px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.box {
+  width: 300px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  position: absolute;
+  margin-top: 220px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.box h1 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.box input[type="text"],
+.box input[type="email"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid grey;
+  padding: 12px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  font-family: sans-serif;
+  transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="email"]:focus {
+  width: 280px;
+  border-color: white;
+}
+
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  text-align: center;
+  border: 2px solid white;
+  padding: 8px 20px;
+  border-radius: 24px;
+  color: white;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.box input[type="submit"]:hover {
+  background: white;
+  color: black;
+}
+
+.voucher {
+  background: none;
+  border: solid 2px grey;
+  border-radius: 24px;
+  font-family: sans-serif;
+  padding: 8px 20px;
+  outline: none;
+  color: white;
+}
+
+.voucher option {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.payment {
+  color: white;
+}
+
+#date {
+  background: none;
+  border: solid 2px grey;
+}
+
+#date input[type="datetime-local"] {
+  background: none;
+}

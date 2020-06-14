@@ -1,0 +1,42 @@
+body {
+  background-color: #2f3035;
+  background-image: url(../images/background4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  height: 650px;
+  padding-top: 10px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.box {
+  padding: 0;
+  width: 600px;
+  height: 620px;
+  background: rgba(0, 0, 0, 0.7);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
+
+.topic {
+  color: white;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+main .phone,
+.email,
+.location {
+  color: white;
+  font-size: 50px;
+}
+
+.location p {
+  line-height: 20px;
+}
